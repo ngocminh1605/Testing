@@ -22,7 +22,7 @@ public class Bai1 {
 
     public static void main(String[] args) {
         // Kiểm thử với các trường hợp biên
-        char[] productTypes ={'A', 'A', 'A', 'A', 'A', 'A', 'A', ,'B', 'B', 'B','B', 'B', 'B', 'B'};
+        char[] productTypes ={'A', 'A', 'A', 'A', 'A', 'A', 'A','B', 'B', 'B','B', 'B', 'B', 'B'};
         int[] totalQuantities = {1, 2, 0, 500,999,1000,998,1, 2, 0, 500,999,1000,998};
 
         // Kiểm thử với bảng giá trị
