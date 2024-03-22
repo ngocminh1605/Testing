@@ -22,13 +22,15 @@ public class Bai1 {
 
     public static void main(String[] args) {
         // Kiểm thử với các trường hợp biên
-        char[] productTypes ={'A', 'A', 'A', 'A', 'A', 'A', 'A','B', 'B', 'B','B', 'B', 'B', 'B'};
-        int[] totalQuantities = {1, 2, 0, 500,999,1000,998,1, 2, 0, 500,999,1000,998};
+        //char[] productTypes ={'A', 'A', 'A', 'A', 'A', 'A', 'A','B', 'B', 'B','B', 'B', 'B', 'B'};
+        //int[] totalQuantities = {1, 2, 0, 500,999,1000,998,1, 2, 0, 500,999,1000,998};
 
         // Kiểm thử với bảng giá trị
         //char[] productTypes ={'A', 'A', 'A', 'A','B', 'B', 'B','B'};
         //int[] totalQuantities = {0,2,500,2000,0,2,500,2000};
-
+        // Kiểm thử với các test case dong dieu khien
+        char[] productTypes ={'A', 'A', 'A','C', 'B', 'B'};
+        int[] totalQuantities = {0, 102, 50, 4, 50, 200};
 
         for (int i = 0; i < productTypes.length; i++) {
             int price = calculateProductPrice(productTypes[i], totalQuantities[i]);
